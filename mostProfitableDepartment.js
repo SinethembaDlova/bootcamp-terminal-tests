@@ -1,4 +1,4 @@
-var mostProfitableDepartment = function(database)
+module.exports = function mostProfitableDepartment(database)
 {
   var hardwareTotalSales = 0;
   var outdoorTotalSales = 0;
@@ -54,7 +54,8 @@ var salesData = [
     {department : 'outdoor', sales : 18007, day : 'Thursday'},
     {department : 'carpentry', sales : 6109, day : 'Thursday'},
     {department : 'hardware', sales : 7005, day : 'Friday'},
-    {department : 'outdoor', sales : 12006, day : 'Friday'},
-    {department : 'carpentry', sales : 16109, day : 'Friday'},];
-
-var storeFunc = mostProfitableDepartment(salesData);
+    {
+        department: 'outdoor',
+        sales: 12006,
+        day: 'Friday'
+    },    {department : 'carpentry', sales : 16109, day : 'Friday'},];
