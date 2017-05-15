@@ -4,10 +4,10 @@
   "description": "",
   "main": "countAllFromTown.js",
   "directories": {
-    "test": "tests"
+    "test": "test"
   },
   "scripts": {
-    "test": ".node_modules/bin/mocha"
+    "test": "node_modules/mocha/bin/mocha"
   },
   "repository": {
     "type": "git",
